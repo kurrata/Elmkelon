@@ -1,0 +1,8 @@
+[package]
+name = "elmkelon"
+version = "0.1.0"
+authors = ["Martins Briedis <martins.briedis.88@gmail.com>"]
+
+[dependencies]
+log=""
+env_logger=""
