@@ -22,6 +22,5 @@ impl Game {
 
     fn load_world_map(&mut self) {
         self.world_map.grow(self.config.get_map_radius());
-        println!("Size is {}", self.world_map.map.len());
     }
 }
