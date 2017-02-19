@@ -6,3 +6,4 @@ authors = ["Martins Briedis <martins.briedis.88@gmail.com>"]
 [dependencies]
 log=""
 env_logger=""
+serde_json=""
