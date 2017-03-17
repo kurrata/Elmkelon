@@ -16,6 +16,9 @@ impl Config {
         let json = json!({
             "map":{
                 "radius":0
+            },
+            "network": {
+                "port": 4451
             }
         });
         let mut config = Config {
@@ -54,6 +57,11 @@ impl Config {
 
     pub fn get_map_radius(&self) -> i32 {
         let radius: i32 = self.data["map"]["radius"].to_string().parse().unwrap();
+        radius
+    }
+    
+    pub fn get_network_port(&self) -> i32 {
+        let radius: i32 = self.data["network"]["port"].to_string().parse().unwrap();
         radius
     }
 }

@@ -13,7 +13,7 @@ extern crate serde_json;
 
 fn main() {
     env_logger::init().unwrap();
-    let elmkelon = elmkelon::game::Game::create();
+    let mut elmkelon = elmkelon::game::Game::create();
     elmkelon.run();
 }
 
